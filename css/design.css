@@ -1,0 +1,17 @@
+.design {
+    max-width: 100%;
+    width: 300px;
+    display: inline-block;
+}
+.design1 {
+    max-width: 100%;
+    width: 900px;
+    display: inline-block;  
+    vertical-align: top;
+}
+.design-image {
+    vertical-align: top;
+}
+h2, h3 {
+    margin: 30px;
+}

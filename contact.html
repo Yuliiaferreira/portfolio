@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact form with validator js">
+    <title>Contact</title>
+    <link rel="stylesheet" href="./css/master.css" />
+    <link href="images_portfolio/logo.png" rel="shortcut icon" type="image/x-icon">
+</head>
+<body>
+  <header class="header">
+    <div class="container"> 
+        <div class="header-body"> 
+            <a href="index.html" class="header-logo">
+                <img  src="images_portfolio/logo.png" alt="logo letter y av Yuliia">  
+            </a>
+            <nav class="header-menu">
+                <ul class="header-list">
+                    <li>
+                        <a class="header-link" href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a class="header-link" href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a class="header-link" href="cv.html">CV</a>
+                    </li>
+                    <li>
+                        <a class="header-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="information">
+        <div class="main-info-contact">
+            <div class="white-space-contact">
+                <h1>Contact</h1>
+                <div class="contact-foot">
+                <form id="contactForm" action="https://julia.av.ferreira@gmail.com" method="post">
+                    <div class="form-group">
+                        <input class="form-control" name="firstName" id="firstName" placeholder="First name &ast;">
+                        <div class="form-error" id="firstNameError">Your first name</div>
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" name="lastName" id="lastName" placeholder="Last name &ast;">
+                        <div class="form-error" id="lastNameError">Your last name</div>
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" name="email" id="email" placeholder="Email &ast;">
+                        <div class="form-error" id="emailError">Your email address</div>
+                        <div class="form-error" id="invalidEmailError">Please enter a valid email address</div>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" name="message" id="message" placeholder="Your Message is here &ast;"></textarea>
+                        <div class="form-error" id="messageError">The message must be at least 10 characters.</div>
+                    </div>
+                    <button type="submit" class="btn btn-primary" id="submit">Send</button>   
+                </form>
+                </div>
+            </div>
+        </div>
+        <div class="main-photo-contact">
+            <img class="photo" src="images_portfolio/mouse.jpg" alt="laptop and mouse">
+        </div>
+    </div>
+        <img class="mobile-version" src="images_portfolio/contacts.jpg" alt="cofee and computer">
+</header>
+<footer>
+    <p>E-mail:</p>
+    <p><a class="foot" href="julia.av.ferreira@gmail.com">&#9993; julia.av.ferreira&commat;gmail.com</a></p>
+    <p><a class="foot" href="yuliia.ferreira@online.no">&#9993; yuliia.ferreira&commat;online.no</a></p>
+    <P>Telefon:</P>
+    <p><a class="foot" href="+4792133133">&phone; +4792133133</a></p>
+    <p>&copy; Yuliia Ferreira</p> 
+    <p>2020</p>
+</footer>
+<script src="js/master.js"></script>
+<script src="js/contact.js"></script>
+</body>
+</html>
